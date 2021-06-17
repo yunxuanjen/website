@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bar {
+	padding-bottom:30px;
+}
+
+
+#bar img{
+	width: 140px;
+}
+
+#bar a{
+	color: #8b4513;
+}
+
+
+
+/*	請將first 裡的 jumbotron class 的高度設定為 50vh。*/
+#first {
+	background-image:url("img/0905.png");
+	height: 70vh;
+}
+
+
+/*	請將first 裡的 h1 標籤的文字顏色為 brown。*/
+#first h1{
+	
+    color: #28004D;
+	/* C-6 */
+	padding-top:140px;
+	padding-left:170px;
+	font-family: Microsoft JhengHei;
+	
+}
+
+#first h2{
+	color: #28004D;
+	padding-top:30px;
+	padding-bottom:30px;
+	
+}
+
+#first h5{
+	padding-left:330px;
+}
+
+#firsta h6{
+	padding-top:120px;
+	font-size: 40px;
+	color: #00E3E3;
+}
+
+#firsta p{
+	padding-bottom:90px;
+	font-size: 16px;
+	color: #4F4F4F;
+	
+}
+
+#introsecond2{
+	background-image:url("img/14863517575741.jpg");
+	height: 50vh;
+}
+
+
+
+#introfirst img{
+	width: 500px;
+	/* D-5 */
+	
+}
+
+
+#introsecond a{
+	
+	
+	text-decoration: none;
+	color: blueviolet
+}
+
+#introsecond b{
+	
+	
+	font-size: 40px;
+	color: #272727;
+}
+
+#introsecond p{
+	background-color: #FFD9EC;
+}
+
+
+#introsecond{
+	
+	padding-top: 100px;
+	padding-bottom: 50px;
+	
+}
+
+/*把摺頁裡的img都設定成圓角*/
+#accordionExample img{
+ border-radius: 25px;
+ width: 500px;
+}
+
+/*QA卡片格式大小設定*/
+.accordion{
+ max-width: 900px;
+ box-shadow:0 0 10px rgba(225,0,0,0.2);
+ border-radius: 10px;
+ overflow: hidden;
+ font-family: PingFang;
+}
+
+
+/*問題二設定*/
+.bodybg2{
+ color: aliceblue;
+ background-color: cornflowerblue;
+ font-family: PingFang;
+}
+
+
+
+/*問題三設定*/
+.bodybg3{
+ color:blueviolet;
+ background-color:lightblue;
+ font-family: PingFang;
+ tab-size:20px; 
+}
+
+#location{
+	padding-top:100px;
+	padding-left:20px;
+	
+}
+
+#QAsecond{
+	padding-top:100px;
+	padding-left:130px;
+	padding-bottom: 100px;
+	background-color:#FFD9EC;
+}
+
+#location{
+	padding-top:20px;
+	padding-left:30px;
+	padding-bottom: 100px;
+}
+
+#picture{
+	
+	padding-left:30px;
+	padding-bottom: 100px;
+	padding-right: 100px;
+	background-color:#FFD9EC;
+}
+
+#picture img{
+	width: 450px;
+	
+}

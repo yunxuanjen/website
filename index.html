@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!--分頁顯示的名稱 A-3 -->
+	<title>甜點世界</title>
+	
+<!--  引入自己寫的CSS  A-2-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+	
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-1 -->
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+</head>	
+	  
+<body>
+
+<!--給導覽列一個名字，叫做"bar"-->
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">
+			<img src="img/04.jpg">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link active" href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html">最新食譜</a>
+					<a class="nav-item nav-link" href="QA.html">Q & A</a>
+					<a class="nav-item nav-link" href="contactus.html">聯絡我們</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+
+	
+
+	
+
+	
+<!--給jumbotron一個名稱，叫做 "first"-->
+<section id="first">
+  <!--套用jumbotron的樣式-->
+  <div class="main-search-container">
+	<div class="main-search-inner">
+		<!--將自己的科系名字學號套用乾淨的<h1>樣式-->
+		<div class="container">
+		<div class="row">
+		<div class="col-md-12">
+  		<h1>探索記憶中的美好滋味</h1>
+		<h2>讓我們編織出更多的甜點地圖，尋回味蕾曾經的感動</h2>
+			<!--新增一個按鈕，套用btn-danger樣式，設定超連結href:到youtube、銘傳官網、XX系官網，而且是開一個新分頁 target="_blank"-->
+			
+			<!-- C-5 參考連結: https://bootstrap.hexschool.com/docs/4.2/components/buttons/ -->
+			<h5>
+			<a class="btn btn-outline-success" href="intro.html" role="button" target="_blank" >Let's Go</a>
+		
+   </h5>
+    </div>
+     </div>
+	 </div>
+
+  </div>
+  </div>
+  </section>
+  
+  
+  <section id="firsta">
+  <div class="container">
+		<div class="row">
+		<div class="col-md-12">
+      <h6>關於西點</h6>
+	  
+	  <p>西式糕點、西式糕餅，中文簡稱西點、西餅，日文寫為洋菓子是指源於西方世界的、烘烤製成的「點心、麵包、三明治、蛋糕、鬆餅、餅乾、慕斯」的總稱。常用原料包括麵粉、牛奶、牛油、沙糖、奶油、巧克力、生果、果仁等，輔助以各種食品添加劑，並以焗爐高溫烘製為主，或以特定的工藝製成。西式糕點由於以甜味食物為主，亦可作西式甜點、西式茶點的稱謂。
+	      不過在西式糕點中，也有大量鹹派、肉派、蔬菜派、魚派等鹹味食物，例如英國的仰望星空派、美國的火雞肉派等。
+          單單以「甜點」來看，以法國的甜點最負盛名，例如：馬卡龍、可麗餅、檸檬塔、閃電泡芙、法式千層蘇、舒芙蕾、可麗露、瑪德蓮等；
+		  而義大利的甜點，例如：提拉米蘇、草莓醬甜甜圈、黃金麵包、薩巴里安尼等亦有強大的知名度；
+		  其餘西式糕點中德國的黑森林蛋糕、美國的杯子蛋糕、日本的洋菓子都極具各個國家的特色；
+		  在英國傳統上，西餅配紅茶、奶茶、咖啡等熱飲，於下午茶時品嚐。
+          由於在19世紀前西方社會糖作為奢侈品，僅為上層社會的專利，食用甜點會被視為是貴族的象徵，所以在西餐中甜點是有一定地位的；其餘糕點則為普通庶民的美食；由於後來糖被普遍使用，所以甜點亦同時普及起來，發展出多元化的特色。現在，很多人都會在餐後都可以自由享用甜點。
+		  
+		  
+		  
+		 </p> 
+	
+  </div>
+ </div>
+	 </div>
+
+	
+ </section>
+	
+	
+</body>
+</html>
+
+
+

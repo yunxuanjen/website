@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QA</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-2 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	
+	<!--給導覽列一個名字，叫做"bar"-->
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="index.html">
+			<img src="img/04.jpg">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link active" href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html">最新食譜</a>
+					<a class="nav-item nav-link" href="QA.html">Q & A</a>
+					<a class="nav-item nav-link" href="contactus.html">聯絡我們</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+	
+<section id="QAsecond">
+
+	<div class="accordion" id="accordionExample">
+		
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          問題一 : 製作草莓大福有甚麼要注意的?
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        糯米蒸熟以後要趁熱的時候慢慢搓揉，揉的越均勻吃起來的口感會越Q彈。
+      </div>
+    </div>
+  </div>
+		
+		
+		
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          問題二 : 製作司康餅有甚麼要注意的?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        很多人會有一個迷思，覺得一定要把麵團表面捍得相當光滑，但其實麵團會因為過度搓揉反而讓烘烤出來的司康過乾，所以建議只要適度搓揉，不需揉到光滑油亮，大約搓揉至麵團表面沒有粉即可。另一個可能讓司康乾口的原因則是麵團過濕導致需要較長的時間烘烤，如此一來便會讓司康成品變得過乾、不夠濕潤。
+      </div>
+    </div>
+  </div>
+		
+		
+		
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          問題二 : 製作舒芙蕾有甚麼要注意的?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+         打發蛋白霜是最重要的步驟
+         蛋白從冷藏取出，維持冰涼的狀態是打發蛋白最適合的溫度，分次加入三次細砂糖打至乾性發泡。
+		 注意事項：乾性發泡蛋白霜會呈現堅挺的狀態，蛋白霜表面光滑，不會水水的，就是蛋白霜最好的狀態。
+      </div>
+    </div>
+  </div>
+		
+    <!--問題四-->
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          美味西點!!!!
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseFour" class="collapse " aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        <img src="img/55.jpg" class="img-rounded">
+      </div>
+    </div>
+  </div>
+		
+ </div>
+</section>
+
+<section id="picture">
+         
+		 <div class="card-columns">
+		
+		  <div class="card">
+			<img src="img/1005.jfif" class="card-img-top">
+		  </div>
+		  
+		  <div class="card">
+			<img src="img/201701301485765795228.jfif" class="card-img-top">
+		  </div>
+		  
+		   <div class="card">
+			<img src="img/b1ca-htfpvza3292609.jpg" class="card-img-top">
+		  </div>
+		  
+		   
+		  <div class="card">
+			<img src="img/F3DXVnMBiuFnsJQVVbML.jpg" class="card-img-top">
+		  </div>
+		  
+		  <div class="card">
+			<img src="img/v2-8ab157d212b94a2b369dbb7822fb49fb_1440w.jpg" class="card-img-top">
+		  </div>
+	
+	    <div class="card">
+			<img src="img/caption.jpg" class="card-img-top">
+		  </div>
+		  
+		  </div>
+</section>
+</body>
+</html>
